@@ -1,0 +1,51 @@
+#Nav {
+  /* border: 1px red solid; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ul {
+  display: flex;
+  /* border: 1px red solid; */
+  width: 50%;
+  justify-content: space-evenly;
+}
+a {
+  all: unset;
+  cursor: pointer;
+}
+li {
+  list-style: none;
+}
+#Intro {
+  /* border: 2px blue solid; */
+  min-height: 70vh;
+  background-image: url(https://images-ext-1.discordapp.net/external/DVGDpQts4Cy6U5_H6PZ1wYouIGLW-VjTe97pWg99Bv8/https/wphix.com/template/akel-prv/akel/img/slider/ss.jpg?format=webp&width=1440&height=450);
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#detailes {
+  /* border: 2px red solid; */
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  align-items: start;
+  width: 50%;
+  padding-left: 40px;
+}
+
+button {
+  all: unset;
+  background-color: rgb(57, 56, 56);
+  color: white;
+  width: 90px;
+  height: 40px;
+  padding: 3px 1px;
+  margin-top: 10px;
+}
+p {
+  position: relative;
+  right: 20px;
+}
